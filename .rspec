@@ -1,2 +1,6 @@
 --require spec_helper
 --format documentation
+describe '#meal_choice' do 
+  it 'should default to meat for the protien' do
+    expect(meal_choice("brocolli", "macaroni")).to eq("A plate of meat with brocolli and macaroni"
+end
